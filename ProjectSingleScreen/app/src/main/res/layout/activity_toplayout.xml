@@ -50,6 +50,7 @@
                 android:layout_height="wrap_content"
                 android:text="+1800 2X0 XX96"
                 android:textSize="24sp"
+                android:fontFamily="sans-serif-condensed"
                 android:layout_below="@+id/phone_textview" />
 
             <TextView
@@ -58,6 +59,7 @@
                 android:layout_height="wrap_content"
                 android:text="+1800 3X5 XX96"
                 android:textSize="24sp"
+                android:fontFamily="sans-serif-condensed"
                 android:layout_below="@+id/phone_first" />
 
 
@@ -87,6 +89,7 @@
                 android:layout_height="wrap_content"
                 android:text="Breakfast"
                 android:textSize="24sp"
+                android:fontFamily="sans-serif-condensed"
                 android:layout_marginLeft="10dp"
                 android:layout_alignEnd="@+id/cuisine_textview" />
 
@@ -96,6 +99,7 @@
                 android:layout_height="wrap_content"
                 android:text="Desserts"
                 android:textSize="24sp"
+                android:fontFamily="sans-serif-condensed"
                 android:layout_marginLeft="10dp"/>
 
         </LinearLayout>
