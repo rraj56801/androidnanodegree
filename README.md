@@ -1,3 +1,4 @@
+![alt text](androidnanodegree/screenshot/image.jpg "Description goes here")
 # androidnanodegree
 #Images used may belong to different organisations.
 #App Logo belongs to some real world organisation.
