@@ -12,5 +12,5 @@
 #          2. Moddel: Redmi Note3 
                     Android version: 6.0.1
                     
-   ![Screenshot](image.png)
+   
   
