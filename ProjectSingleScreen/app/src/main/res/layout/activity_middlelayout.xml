@@ -43,6 +43,7 @@
                 android:layout_alignEnd="@+id/cuisine_textview"
                 android:layout_marginStart="10dp"
                 android:text="Fast Food, Desserts"
+                android:fontFamily="sans-serif-condensed"
                 android:textSize="24sp" />
 
         </LinearLayout>
@@ -72,6 +73,7 @@
                 android:layout_alignEnd="@+id/phone_first"
                 android:layout_marginLeft="10dp"
                 android:text="Card Only"
+                android:fontFamily="sans-serif-condensed"
                 android:textSize="24sp" />
 
         </LinearLayout>
