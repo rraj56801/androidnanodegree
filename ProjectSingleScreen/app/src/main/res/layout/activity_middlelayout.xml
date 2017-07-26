@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relative_middle_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/relative_top_layout"
+    android:paddingLeft="8dp"
+    tools:showIn="@layout/activity_main">
+
+    <!--8 TextView are included in this XML file starting from Cuisine to A/6 Naini  -->
+
+    <LinearLayout
+        android:id="@+id/linear_cuisine_combined"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!--Parent LinearLayout binds two children linearLayouts each having and 2 TextViews-->
+
+        <LinearLayout
+            android:id="@+id/linear_cuisine"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/linear_phone"
+            android:layout_weight="1.5"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/opening_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/cuisine_textview"
+                android:layout_marginTop="8dp"
+                android:text="Cuisine"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/opening_textview1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/cuisine_textview"
+                android:layout_marginStart="10dp"
+                android:text="Fast Food, Desserts"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_payment"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/linear_highlight"
+            android:layout_toRightOf="@+id/linear_cuisine_combined"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/cost_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Payment"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/cost_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/phone_first"
+                android:layout_marginLeft="10dp"
+                android:text="Card Only"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_opening_combined"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear_cuisine_combined"
+        android:orientation="horizontal">
+
+        <!--Parent LinearLayout binds two children linearLayouts each having and 2 TextViews-->
+
+        <LinearLayout
+            android:id="@+id/linear_opening"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/linear_cuisine_combined"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/cuisine_textview"
+                android:layout_marginTop="8dp"
+                android:text="Opening Hours"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/cuisine_textview"
+                android:layout_marginLeft="10dp"
+                android:text="9 AM to 9 PM(24X7) "
+                android:textSize="24sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/linear_cuisine_combined"
+            android:layout_toRightOf="@+id/linear_opening"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/cuisine_textview"
+                android:layout_marginTop="8dp"
+                android:text="Address"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/cuisine_textview"
+                android:layout_marginLeft="10dp"
+                android:text="A/6 Naini"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
