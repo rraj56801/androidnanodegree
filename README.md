@@ -11,5 +11,3 @@
           
 #          2. Moddel: Redmi Note3 
                     Android version: 6.0.1
-                    
-                    <img src="https://github.com/rraj56801/androidnanodegree/image.jpg" width="15%"></img> 
