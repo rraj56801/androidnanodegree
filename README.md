@@ -1,5 +1,7 @@
 ![alt text](screenshot/image1.jpeg "Description goes here")
+
 ![alt text](screenshot/image3.jpeg "Description goes here")
+
 ![alt text](screenshot/image2.jpeg "Description goes here")
 
 # androidnanodegree
